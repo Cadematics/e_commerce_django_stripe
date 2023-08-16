@@ -1,6 +1,6 @@
 """Django settings for config project."""
 
-import django_heroku
+# import django_heroku
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -115,4 +115,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 CART_SESSION_ID = 'cart'
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
